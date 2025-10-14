@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #ff6a00, #ee0979, #ff6a88, #c471f5);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+aside {
+    max-width: 50%;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+aside div a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    margin-right: 80px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+aside div a:hover {
+    background: linear-gradient(9deg, #05a7bd, #15012b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+aside div a:last-child {
+    margin-right: 0; /* Remove margem do último link */
+}
+
+section {
+    max-width: 50%;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    font-family: "Orbitron", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #15012b;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345);
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(9deg, #05a7bd, #15012b);
+}
+
+img {
+    
+    width: 600px;
+    height: auto; /* Manter a proporção da imagem */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+
+}

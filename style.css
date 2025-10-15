@@ -34,7 +34,7 @@ div {
 }
 
 aside div a {
-    position: relative;
+    position: relative; /* Adiciona posição relativa para o pseudo-elemento */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,25 +64,25 @@ aside div a:last-child {
 }
 
 section {
-    max-width: 50%;
+    max-width: 50%; /* Limita a largura máxima da seção */
     width: 100%;
     padding: 25px 30px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: flex; /* Adiciona flexbox para centralizar o conteúdo verticalmente */
+    flex-direction: column; /* Alinha os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
     align-items: center;
 }
 
 h1 {
-    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
+    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345); /* Altera o gradiente */
+    -webkit-background-clip: text; /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+    background-clip: text; /* Aplica o gradiente ao texto */
+    color: transparent; /* Torna o texto transparente para mostrar o gradiente */
     font-size: 3rem;
     font-family: "Orbitron", sans-serif;
-    text-transform: uppercase;
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
     letter-spacing: 0.3rem;
     text-align: center;
     margin-bottom: 10px;
@@ -102,19 +102,19 @@ button {
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
-    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345);
+    background: linear-gradient(120deg, #6a11cb, #2575fc, #232526, #414345); 
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.2rem; /* Aumenta o tamanho da fonte */
     cursor: pointer;
 }
 
 button:hover {
-    background: linear-gradient(9deg, #05a7bd, #15012b);
+    background: linear-gradient(9deg, #05a7bd, #15012b); /* Altera o gradiente ao passar o mouse */
 }
 
 img {
     
-    width: 600px;
+    width: 600px; /* Define a largura da imagem */
     height: auto; /* Manter a proporção da imagem */
     margin-top: 20px;
     border-radius: 10px;
